@@ -1,0 +1,93 @@
+:root {
+  --tertiary-color: hsl(0, 0%, 98%);
+  --primary-color: hsl(0, 0%, 41%);
+  --secondary-color: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: var(--tertiary-color);
+}
+
+header {
+  padding: 1rem;
+}
+nav {
+  vertical-align: top;
+}
+nav,
+ul,
+aside[role="form"] {
+  display: inline;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+a:link {
+  color: var(--primary-color);
+}
+/* a:visited {
+}
+a:hover {
+}
+a:active {
+} */
+
+aside:first-of-type {
+  float: right;
+}
+aside:first-of-type li:nth-of-type(2) a {
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+
+/* Content Section */
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 4rem auto;
+}
+
+main {
+  width: 55%;
+}
+#content aside {
+  width: 40%;
+  text-align: right;
+}
+
+aside img {
+  width: 20rem;
+  height: 25rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
