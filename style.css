@@ -92,6 +92,7 @@ button {
   margin-top: 1rem;
   margin-bottom: 2.9rem;
   border-radius: 0.6rem;
+  font-weight: 700;
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
 }
