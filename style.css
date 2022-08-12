@@ -19,6 +19,7 @@ body {
 
 header {
   padding: 1rem;
+  font-size: 0.8rem;
 }
 nav {
   vertical-align: top;
@@ -49,6 +50,9 @@ a:hover {
 a:active {
 } */
 
+a.active {
+  font-weight: bold;
+}
 aside:first-of-type {
   float: right;
 }
@@ -64,26 +68,49 @@ aside:first-of-type li:nth-of-type(2) a {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 4rem auto;
+  margin: 2rem auto;
+  padding-left: 1rem;
 }
 
+/* Main */
 main {
-  width: 55%;
+  width: 60%;
+  font-size: 1.1rem;
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 4.3rem;
+}
+
+small {
+  color: var(--primary-color);
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.9rem;
+  border-radius: 0.6rem;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+p img {
+  margin-right: 1.5rem;
+}
+/* Aside */
 #content aside {
   width: 40%;
   text-align: right;
 }
 
 aside img {
-  width: 20rem;
-  height: 25rem;
+  width: 24rem;
+  height: 29rem;
 }
 
-h1 {
-  font-weight: 700;
-}
-
+/* Footer */
 .attribution {
   font-size: 11px;
   text-align: center;
