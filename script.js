@@ -20,3 +20,16 @@ document.getElementById("menu-img").addEventListener("click", function () {
     document.querySelector("header #container").style.display = "contents";
   }
 });
+
+window.addEventListener("resize", function () {
+  // let img = document.getElementById("menu-img").src;
+  if (window.innerWidth < 800) {
+    document.getElementById("menu-img").src = "./images/icon-menu.svg";
+    document.querySelector("header #container").style.display = "none";
+    document.getElementById("transparent").style.display = "none";
+    // if (window.innerWidth >= 800 && !img.includes("close")) {
+    //   document.querySelector("header #container").style.display = "contents";
+  } else {
+    document.querySelector("header #container").style.display = "contents";
+  }
+});
