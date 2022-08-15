@@ -29,11 +29,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/desktop.png)
+
 Desktop Version
-![](./images/mobile.png)
+
+![](./images/mobile.png)     ![](./images/mobile_expanded.png)
+
 Mobile Version
-![](./images/mobile_expanded.png)
-Mobile Expanded Version
 
 ### Links
 
