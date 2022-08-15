@@ -21,6 +21,19 @@ body {
 /* Header */
 header {
   font-size: 0.8rem;
+  margin: 1rem;
+  display: contents;
+}
+header #container {
+  display: contents;
+}
+header img {
+  /* width: 10%; */
+}
+
+#full__menu {
+  display: contents;
+  width: 70%;
 }
 nav {
   vertical-align: top;
@@ -31,6 +44,9 @@ aside[role="form"] {
   display: inline;
 }
 
+nav img {
+  margin-left: 0.3rem;
+}
 ul li {
   display: inline-block;
 }
@@ -72,6 +88,7 @@ aside:first-of-type li:nth-of-type(2) a {
   display: none;
   float: right;
 }
+
 /* SunMenus */
 .menu {
   position: relative;
@@ -263,12 +280,54 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  nav,
-  aside[role="form"] {
+  header {
+    display: block;
+  }
+  header #container {
     display: none;
   }
 
+  #transparent {
+    display: none;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+
+  #full__menu {
+    display: block;
+    background-color: var(--tertiary-color);
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+  }
+  #full__menu li {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+  }
+  #full__menu aside {
+    float: none;
+    text-align: center;
+  }
+  #full__menu a {
+    width: 100%;
+  }
+
+  #full__menu aside[role="form"] li:nth-child(2) {
+    padding: 1rem;
+    margin-top: 0;
+  }
   #menu-img {
-    display: inline-block;
+    display: block;
+  }
+
+  aside img {
+    content: url("./images/image-hero-mobile.png");
   }
 }
