@@ -39,7 +39,7 @@ nav {
 }
 nav,
 ul,
-aside#form {
+#form {
   display: inline;
 }
 
@@ -69,10 +69,10 @@ a:hover {
   cursor: pointer;
 }
 
-aside:first-of-type {
+#form {
   float: right;
 }
-aside:first-of-type li:nth-of-type(2) a {
+#form li:nth-of-type(2) a {
   border: 0.13rem solid var(--primary-color);
   border-radius: 0.6rem;
   padding: 0.5rem;
@@ -320,7 +320,7 @@ footer {
     flex-direction: column;
     margin: 0.5rem 1rem;
   }
-  #full__menu aside {
+  #full__menu #form {
     float: none;
     text-align: center;
   }
@@ -328,7 +328,7 @@ footer {
     width: 100%;
   }
 
-  #full__menu aside#form li:nth-child(2) {
+  #full__menu #form li:nth-child(2) {
     padding: 1rem;
     margin-top: 0;
   }
