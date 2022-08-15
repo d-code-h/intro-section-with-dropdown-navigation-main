@@ -204,7 +204,7 @@ p img {
 /* ====================== */
 /* ======= Aside ======= */
 /* ====================== */
-#content {
+#content aside {
   width: 40%;
   text-align: right;
 }
