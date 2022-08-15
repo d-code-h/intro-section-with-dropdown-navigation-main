@@ -39,7 +39,7 @@ nav {
 }
 nav,
 ul,
-aside[role="form"] {
+aside#form {
   display: inline;
 }
 
@@ -328,7 +328,7 @@ footer {
     width: 100%;
   }
 
-  #full__menu aside[role="form"] li:nth-child(2) {
+  #full__menu aside#form li:nth-child(2) {
     padding: 1rem;
     margin-top: 0;
   }
