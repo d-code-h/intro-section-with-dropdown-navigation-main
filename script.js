@@ -1,3 +1,6 @@
+//===================================
+//======= Mobile Menu Image =========
+//===================================
 const menu = document.getElementsByClassName("menu");
 for (let i = 0; i < menu.length; i++) {
   menu[i].addEventListener("mouseover", function () {
@@ -8,6 +11,9 @@ for (let i = 0; i < menu.length; i++) {
   });
 }
 
+//===================================
+//======== Menu Image State =========
+//===================================
 document.getElementById("menu-img").addEventListener("click", function () {
   let src = this.src;
   if (src.includes("close")) {
@@ -21,6 +27,9 @@ document.getElementById("menu-img").addEventListener("click", function () {
   }
 });
 
+//===================================
+//========= Responsiveness ==========
+//===================================
 window.addEventListener("resize", function () {
   if (window.innerWidth < 800) {
     document.getElementById("menu-img").src = "./images/icon-menu.svg";
