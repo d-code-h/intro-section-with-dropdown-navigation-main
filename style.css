@@ -27,9 +27,6 @@ header {
 header #container {
   display: contents;
 }
-header img {
-  /* width: 10%; */
-}
 
 #full__menu {
   display: contents;
@@ -174,6 +171,11 @@ p {
 
 p:first-of-type {
   width: 80%;
+  /* margin: i */
+}
+
+p:nth-child(2) {
+  line-height: 1;
 }
 
 #more {
@@ -212,7 +214,7 @@ aside img {
 /* Footer */
 footer {
   margin: auto;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 .attribution {
   font-size: 11px;
@@ -325,6 +327,17 @@ footer {
   }
   #menu-img {
     display: block;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .menu:hover .submenu {
+    display: contents;
+  }
+
+  p:first-of-type {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   aside img {
