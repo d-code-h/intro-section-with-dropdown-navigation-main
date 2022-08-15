@@ -18,7 +18,9 @@ body {
   background-color: var(--tertiary-color);
 }
 
-/* Header */
+/* ====================== */
+/* ======= Header ======= */
+/* ====================== */
 header {
   font-size: 0.8rem;
   margin: 1rem;
@@ -58,11 +60,6 @@ a:link,
 a:visited {
   color: var(--primary-color);
 }
-/* 
-a:hover {
-}
-a:active {
-} */
 
 a.active {
   font-weight: bold;
@@ -86,7 +83,9 @@ aside:first-of-type li:nth-of-type(2) a {
   float: right;
 }
 
-/* SunMenus */
+/* ====================== */
+/* ====== SunMenus ====== */
+/* ====================== */
 .menu {
   position: relative;
 }
@@ -138,7 +137,9 @@ aside:first-of-type li:nth-of-type(2) a {
   display: block;
 }
 
-/* Content Section */
+/* =============================== */
+/* ======= Content Section ======= */
+/* =============================== */
 
 #content {
   display: flex;
@@ -171,7 +172,6 @@ p {
 
 p:first-of-type {
   width: 80%;
-  /* margin: i */
 }
 
 p:nth-child(2) {
@@ -200,8 +200,11 @@ p:nth-child(2) {
 p img {
   margin-right: 1.5rem;
 }
-/* Aside */
-#content aside {
+
+/* ====================== */
+/* ======= Aside ======= */
+/* ====================== */
+#content {
   width: 40%;
   text-align: right;
 }
@@ -211,7 +214,9 @@ aside img {
   height: 30.5rem;
 }
 
-/* Footer */
+/* ====================== */
+/* ======= Footer ======= */
+/* ====================== */
 footer {
   margin: auto;
   padding: 0.2rem;
@@ -224,7 +229,11 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 700px) {
+/* ====================== */
+/* ======= Media ======= */
+/* ====================== */
+
+@media screen and (max-width: 800px) {
   body {
     padding: 0;
   }
@@ -279,9 +288,8 @@ footer {
     width: 100%;
     height: 20rem;
   }
-}
 
-@media screen and (max-width: 800px) {
+  /* dfghjk */
   header {
     display: block;
   }
